@@ -72,15 +72,15 @@ function renderBeginningText() {
     var mob, fontSize;
     if(/mobile|Mobile|iOS|Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
         mob = true;
-        input_text = 'Tap the screen\'s left and right'
-        action_text = 'sides to rotate the hexagon'
-        score_text = 'Match 3+ blocks to score'
+        input_text = 'Touche les côtés gauche et droit'
+        action_text = 'de l\'écran pour tourner l\'hexagone'
+        score_text = 'Aligne 3 blocs ou plus pour marquer'
         fontSize = 35
     } else {
         mob = false
-        input_text = 'Use the right and left arrow keys'
-        action_text = 'to rotate the hexagon'
-        score_text = 'Match 3+ blocks to score!'
+        input_text = 'Utilise les flèches gauche et droite'
+        action_text = 'pour faire tourner l\'hexagone'
+        score_text = 'Aligne 3 blocs ou plus pour marquer !'
         fontSize = 27
     }
 	renderText((trueCanvas.width)/2 + 2 * settings.scale,upperheight-0*settings.scale, fontSize, '#2c3e50', input_text);

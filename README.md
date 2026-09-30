@@ -1,3 +1,7 @@
+<!-- joxia-credits -->
+> 🎮 **Fork Joxia Games** de [Hextris/hextris](https://github.com/Hextris/hextris) — jeu original de ses auteurs, licence **GPL-3.0** (fichier `LICENSE.md` d'origine conservé). Jouer : https://joxiagame.github.io/hextris-joxia/ · Crédits : [`CREDITS.md`](CREDITS.md) · Liste source : [leereilly/games](https://github.com/leereilly/games)
+<!-- /joxia-credits -->
+
 Hextris
 ==========
 

@@ -337,7 +337,8 @@ function isInfringing(hex) {
 function checkGameOver() {
 	for (var i = 0; i < MainHex.sides; i++) {
 		if (isInfringing(MainHex)) {
-			$.get('http://54.183.184.126/' + String(score))
+			// Joxia : score envoyé au classement du hub (remplace l'envoi vers le serveur de l'auteur)
+			if (window.joxiaScore) window.joxiaScore(score);
 			if (highscores.indexOf(score) == -1) {
 				highscores.push(score);
 			}
